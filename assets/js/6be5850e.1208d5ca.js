@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsl_gamification=self.webpackChunkdsl_gamification||[]).push([[974],{3769:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
