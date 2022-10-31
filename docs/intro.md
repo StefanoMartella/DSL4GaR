@@ -2,46 +2,19 @@
 sidebar_position: 1
 ---
 
-# DSLGa
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's find out the main functionalities of DSLGa (Domain Specific Language for Gamification).
 
-## Getting Started
+## Features
 
-Get started by **creating a new site**.
+The DSLGa is implemented to ease the entire rules design process and to better analyze the rules and their correlation.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Rules Definition 👨‍💻
+The DSLGa exposes APIs to define the rules leveraging on the [Fluent Interface pattern](https://en.wikipedia.org/wiki/Fluent_interface); in this way the game designers can focus on the domain's elements rather than the code.
 
-### What you'll need
+### Rules Simulation 🧪
+The DSLGa also permits to test the rules to verify their correctness and to deep understand their correlation.<br /> This is possible thanks to a graph that is generated during the simulation that clearly shows the order and the impact of each rule on the state of the game.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Rules Deployment 🚀
+The defined rules can be directly deployed on the gamification engine that takes care of their execution.<br /> The whole process takes place inside the same environment for the designers.

@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
+    title: "Rules Definition",
     Svg: require("@site/static/img/rule_definition.svg").default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <>The DSL provides user-friendly APIs for the rules definiton phase.</>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Rules Simulation",
     Svg: require("@site/static/img/rule_testing.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The defined rules can be easily tested in different scenario and further
+        analized.
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Rules Deployment",
     Svg: require("@site/static/img/rule_deployment.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The rules can be directly deployed on the gamification engine in no
+        time.
       </>
     ),
   },
