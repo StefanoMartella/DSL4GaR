@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation
 
-DSLGa is essentially a maven dependency.
+DSL4GaR is essentially a maven dependency.
 
 :::info Maven repository
 The package is not available through maven repository yet.
