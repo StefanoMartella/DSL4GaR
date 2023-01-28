@@ -24,17 +24,27 @@ The package is not available through maven repository yet.
 
 ## Setup
 
-Since the .jar of the project is not yet available from the maven repository, it is necessary to build the project autonomously by downloading it from [here](https://github.com/antbucc/GRL). <br />
+Since the .jar of the project is not yet available from the maven repository, it is necessary to build the project autonomously by downloading it from [here](https://github.com/antbucc/GRL) and running the following command:
 
-Add the generated jar dependency to the project by running:
+```bash 
+maven package
+```
+
+Alternatively, is is possible to download the pre-build jar file from [here](https://github.com/antbucc/GRL).<br />
+
+Once the jar has been generated/downloaded, it is possible to add the dependency to the project by running the following command:
 
 ```bash 
 mvn install:install-file -Dfile=path/to/the/gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
 ```
 
-The pom should be updated as follow:
+:::caution
+In the above command replace the `-Dfile` path based on the location of the jar on your device.
+:::
 
-```xml title="pom.xml"
+Lastly, update the pom as follow:
+
+```xml title="pom.xml" {5-9}
 <dependencies>
 
     // Other dependencies
