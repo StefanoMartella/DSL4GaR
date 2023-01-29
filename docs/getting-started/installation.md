@@ -38,7 +38,7 @@ Once the jar has been generated/downloaded, it is possible to add the dependency
 mvn install:install-file -Dfile=path/to/the/gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
 ```
 
-:::caution
+:::caution Set the right path
 In the above command replace the `-Dfile` path based on the location of the jar on your device.
 :::
 
