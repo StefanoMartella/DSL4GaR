@@ -64,4 +64,4 @@ That's it, you can start using the DSL for designing rules! 🥳
 
 ## Problems?
 
-Ask for help or notify some lack on this documentation [here](https://github.com/antbucc/GRL/issues). 🙏🏻
+Ask for help or notify some lack on this documentation [here](https://github.com/StefanoMartella/DSL4GaR/issues). 🙏🏻
