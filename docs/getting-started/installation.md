@@ -30,7 +30,7 @@ Since the .jar of the project is not yet available from the maven repository, it
 maven package
 ```
 
-Alternatively, is is possible to download the pre-build jar file from [here](https://github.com/antbucc/GRL).<br />
+Alternatively, is is possible to download the pre-build jar file from [here](https://github.com/antbucc/GRL/releases/tag/v1.0.0).<br />
 
 Once the jar has been generated/downloaded, it is possible to add the dependency to the project by running the following command:
 
