@@ -1,0 +1,11 @@
+it.univaq.gamification.deployment.model
+it.univaq.gamification.deployment.services
+it.univaq.gamification.dsl
+it.univaq.gamification.dsl.binders
+it.univaq.gamification.dsl.builders
+it.univaq.gamification.dsl.builders.lhs
+it.univaq.gamification.dsl.builders.lhs.builders
+it.univaq.gamification.dsl.builders.rhs.builders
+it.univaq.gamification.simulation
+it.univaq.gamification.simulation.builders
+it.univaq.gamification.simulation.builders.impl.fact
