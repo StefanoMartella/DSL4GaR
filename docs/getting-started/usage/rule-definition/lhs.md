@@ -361,7 +361,7 @@ If a rule LHS contains multiples patterns their default conjunction is the logic
   </TabItem>
 </Tabs>
 
-### Free constraints
+### Free Constraints
 
 Sometimes the constraints might be more complex than others; in these cases it is possible to rely on the `pattern` methods that accepts a `String` representing the constraint:
 
