@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DSL for gamification",
-  tagline: "A Drools-based tool for game designers",
+  title: "DSL4GaR",
+  tagline: "A Drools-based DSL for gameful systems design",
   url: "https://StefanoMartella.github.io",
   baseUrl: "/DSL4GaR/",
   onBrokenLinks: "throw",
@@ -81,7 +81,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Stefano Martella.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Stefano Martella`,
       },
       prism: {
         theme: lightCodeTheme,
