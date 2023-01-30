@@ -14,7 +14,7 @@ const maintainers: IMaintainer[] = [
     name: "Antonio",
     surname: "Bucchiarone",
     email: "bucchiarone@fbk.eu",
-    institute: "Fondazione Burno Kessler (FBK)",
+    institute: "Fondazione Bruno Kessler (FBK)",
     img: require("@site/static/img/maintainers/antonio_bucchiarone.jpg")
       .default,
   },
