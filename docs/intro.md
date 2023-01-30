@@ -18,3 +18,7 @@ The DSL4GaR also permits to test the rules to verify their correctness and to de
 
 ### Rules Deployment 🚀
 The defined rules can be directly deployed on the gamification engine that takes care of their execution.<br /> The whole process takes place inside the same environment for the designers.
+
+## Problems?
+
+Ask for help or notify some lack on this documentation [here](https://github.com/StefanoMartella/DSL4GaR/issues). 🙏🏻

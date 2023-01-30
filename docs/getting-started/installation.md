@@ -60,8 +60,4 @@ Lastly, update the pom as follow:
 
 <br />
 
-That's it, you can start using the DSL for designing rules! 🥳
-
-## Problems?
-
-Ask for help or notify some lack on this documentation [here](https://github.com/StefanoMartella/DSL4GaR/issues). 🙏🏻
+That's it, you can start using DSL4GaR for designing rules! 🥳

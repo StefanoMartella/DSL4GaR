@@ -81,7 +81,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Stefano Martella`,
+        copyright: `Copyright © ${new Date().getFullYear()} Stefano Martella & Antonio Bucchiarone`,
       },
       prism: {
         theme: lightCodeTheme,

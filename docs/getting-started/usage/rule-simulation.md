@@ -296,8 +296,8 @@ Every time the `simulate` method is called all the expectations are cleared, thu
 
 The `simulateAndClose` method produces a filtrable graph where the game state transitions are shown:
 
-![graph_success](/img/graph_success.png)
+![graph_success](/img/graph/graph_success.png)
 
 If during the simulation not all the expectations are successfully verified an error message reporting the assertion message and the related rules are displayed:
 
-![graph_success](/img/graph_error.png)
+![graph_success](/img/graph/graph_error.png)
