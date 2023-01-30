@@ -35,7 +35,7 @@ Alternatively, is is possible to download the pre-build jar file from [here](htt
 Once the jar has been generated/downloaded, it is possible to add the dependency to the project by running the following command:
 
 ```bash 
-mvn install:install-file -Dfile=path/to/the/gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=path\to\the\dsl4gar-1.0.0.jar -DgroupId=it.univaq.gamification -DartifactId=dsl4gar -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true
 ```
 
 :::caution Set the right path
@@ -47,13 +47,13 @@ Lastly, update the pom as follow:
 ```xml title="pom.xml" {5-9}
 <dependencies>
 
-    // Other dependencies
+  // Other dependencies
 
-    <dependency>
-        <groupId>it.univaq.gamification</groupId>
-        <artifactId>gamification-dsl</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
+  <dependency>
+    <groupId>it.univaq.gamification</groupId>
+    <artifactId>dsl4gar</artifactId>
+    <version>1.0.0</version>
+  </dependency>
 
 </dependencies>
 ```
