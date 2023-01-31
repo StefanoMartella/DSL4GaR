@@ -298,6 +298,6 @@ The `simulateAndClose` method produces a filtrable graph where the game state tr
 
 ![graph_success](/img/graph/graph_success.png)
 
-If during the simulation not all the expectations are successfully verified an error message reporting the assertion message and the related rules are displayed:
+If during the simulation not all the expectations are successfully verified an error message reporting the assertion message and the related rules is displayed:
 
 ![graph_success](/img/graph/graph_error.png)
